@@ -8,6 +8,7 @@ O repositório reúne exercícios documentados, exemplos de relacionamento entre
 
 Demonstrar conhecimentos práticos em:
 
+- criação de tabelas, chaves e restrições;
 - seleção e organização de dados com `SELECT`;
 - filtros com `WHERE`;
 - ordenação com `ORDER BY`;
@@ -25,6 +26,7 @@ Demonstrar conhecimentos práticos em:
 sql-para-analise-de-dados/
 ├── README.md
 ├── consultas/
+│   ├── 00-criacao-base-exemplo.sql
 │   ├── 01-filtros-e-ordenacao.sql
 │   ├── 02-joins.sql
 │   ├── 03-adventureworks-compras.sql
@@ -35,7 +37,17 @@ sql-para-analise-de-dados/
     └── dicionario-de-dados.md
 ```
 
+## Como executar
+
+1. Execute `consultas/00-criacao-base-exemplo.sql` no SQL Server.
+2. Execute os arquivos `01` a `05` na ordem desejada.
+3. Para o arquivo do AdventureWorks, utilize uma instalação do banco demonstrativo AdventureWorks.
+
 ## Consultas disponíveis
+
+### 0. Criação da base de exemplo
+
+Cria as tabelas `funcionarios` e `departamentos`, define chaves primárias e estrangeiras e insere dados fictícios para reprodução dos exercícios.
 
 ### 1. Filtros e ordenação
 
