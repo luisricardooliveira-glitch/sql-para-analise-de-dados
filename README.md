@@ -60,7 +60,7 @@ Consultas para calcular totais, médias, quantidades e resultados agrupados.
 
 ### 5. Desafios de entrevistas
 
-Exercícios comuns em processos seletivos, incluindo duplicados, ranking, subconsultas e comparação com médias.
+Exercícios comuns em processos seletivos, incluindo duplicados, ranking, subconsultas, CTE e função de janela com `ROW_NUMBER()`.
 
 ## Tecnologias
 
@@ -77,8 +77,7 @@ Os exemplos fictícios são utilizados exclusivamente para aprendizagem. As cons
 
 ## Próximas evoluções
 
-- acrescentar consultas com CTEs;
-- praticar funções de janela;
+- aprofundar o uso de CTEs e funções de janela;
 - desenvolver análises de vendas e estoque;
 - incluir planos de execução e melhorias de performance;
 - conectar consultas a projetos de Power BI.
